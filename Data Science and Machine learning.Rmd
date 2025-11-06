@@ -1,0 +1,81 @@
+```{r}
+np <- import("numpy")
+
+a <- np$array(c(1, 2, 3, 4,5))
+print(a)
+
+```
+
+```{r}
+arr <- array(0, dim = c(3,3))
+print(arr)
+``` 
+
+```{r}
+library(reticulate)
+np <- import("numpy")
+arr_np <- np$zeros(c(3, 3))
+print(arr_np)
+
+```
+
+```{r}
+library(reticulate)
+pd <- import("pandas")
+data <- dict(name = c("Alice", "Bob"), age = c(24, 35))
+df <- pd$DataFrame(data)
+print(df)
+
+```
+
+```{r}
+data(iris)
+iris_df <- iris
+```
+
+```{r}
+print("First 5 Rows of the Iris Dataset:")
+head(iris_df, 5)
+```
+
+```{r}
+print("Structure of Iris Data:")
+str(iris_df)
+
+```
+
+```{r}
+plot(c(1, 4, 2, 5), type = "o", col = "blue", main = "Simple Line Plot",
+     xlab = "Index", ylab = "Value")
+
+```
+
+```{r}
+plot(iris_df$Sepal.Length, iris_df$Sepal.Width,
+     col = iris_df$Species,
+     pch = 19,
+     main = "Sepal Length vs Sepal Width (Iris)",
+     xlab = "Sepal Length (cm)",
+     ylab = "Sepal Width (cm)")
+legend("topright", legend = levels(iris_df$Species), col = 1:3, pch = 19)
+
+```
+
+```{r}
+X <- iris_df[, 1:4]
+y <- iris_df$Species
+
+```
+
+```{r}
+set.seed(42)
+train_index <- sample(1:nrow(iris_df), 0.8 * nrow(iris_df))
+X_train <- X[train_index, ]
+X_test <- X[-train_index, ]
+y_train <- y[train_index]
+y_test <- y[-train_index]
+
+cat("Training set size:", nrow(X_train), "\n")
+cat("Testing set size:", nrow(X_test), "\n")
+```
+

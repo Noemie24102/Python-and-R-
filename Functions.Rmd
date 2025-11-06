@@ -1,0 +1,179 @@
+
+```{r}
+greet <- function()
+  print(paste('Hello there !'))
+
+```
+
+```{r}
+greet()
+
+```
+
+```{r}
+mutiply <- function(a, b)
+  return (a*b)
+```
+
+```{r}
+mutiply(5,4)
+```
+
+```{r}
+describe_pet <- function(pet_name = NULL, animal_type = "dog") {
+  if (is.null(pet_name)) {
+    pet_name <- readline("Enter the pet name: ")
+  }
+  
+  if (is.null(animal_type)) {
+    animal_type <- readline("Enter the animal type: ")
+  }
+  
+  cat("The pet name is:", pet_name, "and the animal type is:", animal_type, ".\n")
+}
+
+describe_pet()
+
+```
+
+```{r}
+
+describe_pet("Bluey", "dog")
+
+```
+
+```{r}
+Get_Max <- function() {
+  n <- as.integer(readline("How many numbers do you want in your list? "))
+  num <- c()  
+  
+  for (i in 1:n) {
+    numbers <- as.numeric(readline(paste("Enter number", i, ": ")))
+    num <- c(num, numbers)  
+  }
+  
+  largest_num <- num[1]
+  for (number in num) {
+    if (number > largest_num) {
+      largest_num <- number
+    }
+  }
+  
+  return(largest_num)
+}
+
+max_value <- Get_Max()
+cat("The largest number is:", max_value, "\n")
+
+                 
+```
+
+```{r}
+Function <- function() {
+  local_var <- 95
+  print(local_var)
+}
+Function()
+
+```
+
+```{r}
+Function()
+```
+
+```{r}
+print(local_var)
+```
+
+```{r}
+Global_Var <- 96
+fUnction <- function() {
+  cat("The global Variable is:", Global_Var, "\n")
+}
+fUnction()
+```
+
+```{r}
+fUnction()
+```
+
+```{r}
+Lambda_Function <- function() {
+  arg <- as.integer(readline("Enter an argument: "))
+  square <- arg^2
+  return(square)
+}
+result <- Lambda_Function()
+cat("The square is:", result, "\n")
+
+```
+
+```{r}
+result <- Lambda_Function()  
+print(result)
+```
+
+```{r}
+numbers <- c(1, 2, 3, 4, 5, 6)
+even_numbers <- Filter(function(x) x %% 2 == 0, numbers)
+print(even_numbers)
+```
+
+```{r}
+celsius <- c(0, 10, 20)
+fahrenheit <- lapply(celsius, function(c) (c * 9/5) + 32)
+print(fahrenheit)
+
+```
+
+```{r}
+recursive <- function(n) {
+  if (n <= 0) {
+    print("Done!")
+  } else {
+    print(n)
+    recursive(n - 1)
+  }
+}
+```
+
+```{r}
+recursive(3)
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+
+```{r}
+
+```
+
+```{r}
+
+```

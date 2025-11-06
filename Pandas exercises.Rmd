@@ -1,0 +1,100 @@
+```{r}
+series <- c('Alice', 'Bob', 'Charlie')
+print(series)
+```
+
+```{r}
+df <- data.frame(Name = c('Anna', 'Bob', 'Charlie'),
+                 Age = c(25, 30, 35))
+print(df)
+```
+
+```{r}
+head(df, 2)
+```
+
+```{r}
+print(df$Age)
+```
+
+```{r}
+str(df)
+```
+
+```{r}
+filtered_df <- subset(df, Age > 25)
+print(filtered_df)
+```
+
+```{r}
+df$City <- c('London', 'New York', 'Berlin')
+print(df)
+```
+
+```{r}
+summary(df$Age)
+```
+
+```{r}
+df_missing <- data.frame(A = c(1, 2, NA))
+print(df_missing)
+df_filled <- df_missing
+df_filled[is.na(df_filled)] <- 0
+print(df_filled)
+```
+
+```{r}
+data <- read.csv('./data/ex1data1.txt', header = FALSE)
+print(head(data))
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```

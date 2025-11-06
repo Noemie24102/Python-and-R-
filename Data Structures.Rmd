@@ -1,0 +1,124 @@
+```{r}
+list <- list('Blue', 'Green', 'Brown')
+print(list)
+```
+
+```{r}
+print(list[[2]])
+```
+
+```{r}
+list <- list('Blue', 'Green', 'Brown')
+list <- append(list, list("yellow"))
+print(list)
+```
+
+```{r}
+year <- c("January", "February", "March", "April", "May", "June", "July", "August","September", "October", "November","December")
+print(year)
+
+```
+
+```{r}
+Student <- list(name ="TOURE", age = 20, courses = c("Data Structures", "Electronics", "Data Science" ))
+print(Student)
+
+```
+
+```{r}
+print(age)
+```
+
+```{r}
+Student['year'] <- 2
+print(Student)
+```
+
+```{r}
+list <- list(1, 2, 2, 3, 4, 4, 5)
+set <- unique(unlist(list))
+print(set)
+```
+
+```{r}
+list <- list('Blue', 'Green', 'Brown')
+list <- remove_element(list, "Green")
+print(list)
+
+```
+
+```{r}
+keys <- names(Student)
+print(keys)
+
+```
+
+```{r}
+set1 <- c(1,2,3)
+set2 <- c(2,3,4)
+
+common_elements <- intersect(set1, set2)
+
+print(common_elements)
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```

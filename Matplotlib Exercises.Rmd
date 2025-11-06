@@ -1,0 +1,167 @@
+```{r}
+x <- 1:4
+y <- c(1, 2, 3, 4)
+plot(x, y, type = "l", main = "Simple Plot")
+
+
+```
+
+```{r}
+y2 <- c(1, 4, 2, 5)
+plot(x, y2, type = "l", main = "My First Plot", xlab = "X", ylab = "Y")
+
+
+```
+
+```{r}
+x_vals <- c(1, 2, 3, 4, 5)
+y_vals <- c(2, 4, 1, 5, 3)
+plot(x_vals, y_vals, main = "Scatter Plot", xlab = "X", ylab = "Y")
+
+
+```
+
+```{r}
+categories <- c('A', 'B', 'C')
+values <- c(5, 7, 3)
+barplot(values, names.arg = categories, col = "skyblue", main = "Bar Chart")
+
+```
+
+```{r}
+hist(rnorm(1000), main = "Histogram of Normal Distribution", col = "lightgreen")
+
+```
+
+```{r}
+par(mfrow = c(1, 2))  # 1 row, 2 columns
+plot(x, y, type = "l", main = "Line Plot")
+barplot(values, names.arg = categories, main = "Bar Chart")
+par(mfrow = c(1, 1))  # Reset layout
+
+```
+
+```{r}
+plot(x, y, type = "l", col = "red", lty = 2, main = "Red Dashed Line")
+
+```
+
+```{r}
+x <- c(1, 2, 3)
+plot(x, c(1, 2, 3), type = "l", col = "blue", ylim = c(0, 4),
+main = "Legend Example", xlab = "x", ylab = "y")
+lines(x, c(3, 2, 1), col = "red")
+legend("topright", legend = c("y1 = [1,2,3]", "y2 = [3,2,1]"),
+col = c("blue", "red"), lty = 1)
+
+```
+
+```{r}
+x <- 0:10
+y <- x - 5
+plot(x, y, type = "l", xlim = c(0, 10), ylim = c(-5, 5),
+     main = "Set Axis Limits", col = "red")
+```
+
+```{r}
+png("my_plot.png")
+plot(x, y, type = "l", main = "Saved Plot")
+dev.off()
+
+```
+
+```{r}
+
+```
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```

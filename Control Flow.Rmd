@@ -1,0 +1,109 @@
+```{r}
+number <- readline('Enter a number.')
+if (number > 0){
+  print('Positive !')
+} else if (number == 0){
+  print('Null')
+} else{
+  print('Negative')
+}
+
+```
+
+```{r}
+num <- as.numeric(readline('Enter a number.'))
+if(num %% 2 == 0){
+  print('Even')
+} else{
+  print('Odd')
+}
+
+```
+
+```{r}
+grade <- readline('Enter the grade.')
+if (grade < 50){
+  print('F')
+} else if(grade >= 50 && grade <= 69){
+  print('C')
+} else if(grade >= 70 && grade <= 89){
+  print('B')
+} else if (grade >= 90){
+  print('A')
+}
+
+```
+
+```{r}
+Fruits <- c('apple', 'banana', 'cherry')
+Fruit <- 'banana'
+if (Fruit %in% Fruits) {
+  print(paste(Fruit, "is in the list!"))
+} else {
+  print(paste(Fruit, "is NOT in the list!"))
+}
+
+```
+
+```{r}
+sum <- 0
+for (i in 1:10) {
+  sum <- sum + i
+}
+print(sum)
+```
+
+```{r}
+i = 6
+while(i >= 1){
+  i <- i - 1
+  print(i)
+  }
+```
+
+```{r}
+input <- ""  
+
+while (input != "stop") {
+  input <- readline("Enter an input: ")
+  print(input)
+}
+
+```
+
+```{r}
+for (i in 1:4) {
+  for (j in 1:4) {
+    cat("#")
+  }
+  cat("\n")
+}
+
+```
+
+```{r}
+for(i in 1:10){
+  if(i == 5){
+    break
+  }
+  print(i)
+}
+
+```
+
+```{r}
+for (i in 1:10) {
+  if (i == 5) {
+    next   
+  }
+  print(i)
+}
+```
+
+```{r}
+
+```
+
+```{r}
+
+```

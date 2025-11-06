@@ -1,0 +1,78 @@
+
+```{r}
+arr <- c(1, 2, 3, 4,5)
+print(arr)
+```
+
+```{r}
+zeros <- matrix(0, nrow = 2, ncol = 3)
+zeros
+```
+
+```{r}
+ones <- matrix(1, nrow = 4, ncol = 4)
+ones
+``````{r}
+seq_arr <- seq(0, 1, length.out = 10)
+seq_arr
+```
+
+```{r}
+arr <- matrix(rnorm(25, mean = 0, sd = 1), nrow = 5, ncol=5)
+print(arr)
+
+```
+
+```{r}
+arr2 <- array(1:15, dim = c(3, 5))
+cat("Shape:", dim(arr2), "\n")
+cat("Number of dimensions:", length(dim(arr2)),"\n")
+
+```
+
+```{r}
+arr <- c(10, 20, 30, 40, 50)
+cat("Element at index 3:", arr[3], "\n")  # R uses 1-based indexing
+```
+
+```{r}
+arr <- seq(10, 50, by = 10)
+cat("Elements from index 2 to 4:", arr[2:4],"\n")
+```
+
+```{r}
+arr <- c(1, 2, 3, 4, 5, 6)
+new_arr <- arr[arr > 3]
+cat("Elements greater than 3:",new_arr,"\n")
+```
+
+```{r}
+a <- c(1, 2, 3)
+b <- c(4, 5, 6)
+sum_arr <- a + b
+cat("Element-wise sum:",sum_arr,"\n")
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```

@@ -1,0 +1,149 @@
+```{r}
+name <- 'TOURE'
+print(name)
+```
+
+```{r}
+num1 <- 5
+num2 <- 6
+sum <- num1 + num2
+print(sum)
+```
+
+```{r}
+is_raining <- TRUE
+print(typeof(is_raining))
+```
+
+```{r}
+favorite_number <- as.numeric(readline("Enter your favorite number: "))
+print(paste("Your favorite number is:", favorite_number))
+```
+
+```{r}
+Str <- 100
+Int <- as.integer(Str)
+print(Int)
+```
+
+```{r}
+price <- 9.99
+Price <- as.integer(price)
+print(Price)
+# The decimal part disappeared.
+```
+
+```{r}
+multi_line <- 'My name is TOURE. \nI am a student.'
+print(multi_line)
+```
+
+```{r}
+text <- "Hello "
+repeated_text <- strrep(text, 5)
+print(repeated_text)
+```
+
+```{r}
+score <- 95
+Score <- as.character(score)
+
+message <- paste("My score is", Score)
+print(message)
+
+```
+
+```{r}
+String <- "I have an apple and a banana"
+if (grepl("apple", String)) {
+  print("Apple is in the String")
+}
+
+```
+
+```{r}
+```
+
+```{r}
+```
+
+```{r}
+```
+
+```{r}
+```
+
+```{r}
+```
+
+```{r}
+```
+
+```{r}
+```
+
+```{r}
+```
+
+```{r}
+```
+
+```{r}
+```
+
+```{r}
+```
+
+```{r}
+```
+
+```{r}
+```
+
+```{r}
+```
+
+```{r}
+```
+
+```{r}
+```
+
+```{r}
+```
+
+```{r}
+```
+
+```{r}
+```
+
+```{r}
+```
+
+```{r}
+```
+
+```{r}
+```
+
+```{r}
+```
+
+```{r}
+```
+
+```{r}
+```
+
+```{r}
+```
+
+```{r}
+```
+
+```{r}
+```
+
+```{r}
+```
